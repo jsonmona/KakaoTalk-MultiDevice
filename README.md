@@ -1,111 +1,49 @@
-# Game-Unlocker
-## Unlock higher FPS in games
-Spoof your device as different model for specific games to unlock higher FPS
+# KakaoTalk-MultiDevice
+## 카카오톡을 여러 기기에서 사용하기
+카카오톡 한 계정을 여러 기기에서 공유해서 사용할 수 있게 해줍니다.
 
-## Features
+루팅 필수이며, 한번이라도 루팅을 시도하면 해당 휴대폰은 삼성페이 등의 일부 기능을 영원히 사용할 수 없는 기기가 되는 점 염두하시기 바랍니다.
 
-- Device spoofing for enhanced gaming experiences.
-- Compatibility with a wide range of popular gaming applications.
-- Easy installation and no configuration.
+## 경고
+이 소프트웨어는 잘 테스트되지 않았습니다.
+이 소프트웨어을 설치함으로 인해 기기에 문제가 생기거나, USIM 카드가 망가지거나, 카카오톡에게 밴 당하거나, 알람이 울리지 않아 회사에 지각 하는 등 이 소프트웨어에 의한 모든 문제의 책임은 본인에게 있습니다.
+루팅에 대해 잘 모른다면 이 소프트웨어를 설치하지 마십시오.
 
-## Table of Contents
+## 특징
+- 카카오톡을 여러 기기에서 사용
+- 대부분의 안드로이드 기기와 호환
+- 쉽게 설치 가능
 
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [License](#license)
-- [Contributing](#contributing)
+카카오톡은 스마트폰 1대, 태블릿 1대만 사용할 수 있습니다.
+이 소프트웨어를 설치해도 위 제한을 초과해서 사용할 수는 없습니다.
 
-## Getting Started
+## 시작하기
 
-To get started with Game Unlocker, follow these steps:
+카카오톡 멀티디바이스를 설치하려면 다음 단계를 따라주세요:
 
-1. Ensure that your Android device is rooted.
+1. 카카오톡을 설치하되 켜지는 마세요.
 
-2. Install the Xposed/Lsposed Framework on your device.
-   
-3. Download the Game Unlocker module from the [releases section](https://github.com/rushiranpise/game-unlocker/releases) of this repository.
+2. 만약 이미 켠 적이 있다면 데이터를 삭제해주세요.
 
-4. Install the downloaded apk :
-   - Open Xposed/Lsposed Manager.
-   - Go to the "Modules" section.
-   - Search "Game Unlocker" and enable the module.
-   - The supported games are auto added to the scope.
-   - Force Stop the added game manually to take effect.
+3. Magisk 혹은 KernelSU 등의 방식으로 기기를 루팅하세요.
 
-## Usage
+4. Xposed 혹은 LSposed 프레임워크를 설치해주세요.
 
-Once you've installed and activated the Game Unlocker module, it will automatically spoof your device information for supported gaming applications. There's no additional configuration required. Simply force stop and open the games you want to play, and enjoy the benefits of device spoofing.
+5. 최신 APK 파일을 [releases 섹션](https://github.com/jsonmona/KakaoTalk-MuitiDevice/releases) 에서 다운로드 하세요.
 
-You can untick the game you don't want to spoof for the module scope. Force stop and relaunch is required.
+6. 다운로드 받은 APK 파일을 설치하세요:
+   - Xposed/LSposed manager를 여세요.
+   - "모듈" 섹션을 열어주세요.
+   - "KakaoTalk MultiDevice"를 클릭해주세요.
+   - "모듈 활성화"를 켜주세요.
+   - 아래 앱 목록에서 카카오톡을 찾아서 켜주세요.
 
-**Note:** Keep in mind that device spoofing may violate the terms of service for some games or apps.
-
-Report any suggestions/issues with games [here](https://github.com/rushiranpise/Game-Unlocker/issues)
-
-## Supported Games
-
-<details>
-  <summary>Click to expand the list of supported games</summary>
-
-- https://play.google.com/store/apps/details?id=com.YoStar.AetherGazer&hl=en&gl=US
-- https://play.google.com/store/apps/details?id=com.activision.callofduty.shooter&hl=en&gl=US
-- https://play.google.com/store/apps/details?id=com.activision.callofudty.warzone&hl=en&gl=US
-- https://play.google.com/store/apps/details?id=com.dts.freefiremax&hl=en&gl=US
-- https://play.google.com/store/apps/details?id=com.dts.freefireth&hl=en&gl=US
-- https://play.google.com/store/apps/details?id=com.ea.gp.apexlegendsmobilefps&hl=en&gl=US
-- https://play.google.com/store/apps/details?id=com.ea.gp.fifamobile&hl=en&gl=US
-- https://play.google.com/store/apps/details?id=com.epicgames.fortnite&hl=en&gl=US
-- https://play.google.com/store/apps/details?id=com.epicgames.portal&hl=en&gl=US
-- https://play.google.com/store/apps/details?id=com.gameloft.android.ANMP.GloftA9HM&hl=en&gl=US
-- https://play.google.com/store/apps/details?id=com.garena.game.codm&hl=en&gl=US
-- https://play.google.com/store/apps/details?id=com.garena.game.kgvn&hl=en&gl=US
-- https://play.google.com/store/apps/details?id=com.garena.game.lmjx&hl=en&gl=US
-- https://play.google.com/store/apps/details?id=com.levelinfinite.hotta.gp&hl=en&gl=US
-- https://play.google.com/store/apps/details?id=com.levelinfinite.sgameGlobal&hl=en&gl=US
-- https://play.google.com/store/apps/details?id=com.madfingergames.legends&hl=en&gl=US
-- https://play.google.com/store/apps/details?id=com.miHoYo.GenshinImpact&hl=en&gl=US
-- https://play.google.com/store/apps/details?id=com.mobile.legends&hl=en&gl=US
-- https://play.google.com/store/apps/details?id=com.mobilelegends.mi&hl=en&gl=US
-- https://play.google.com/store/apps/details?id=com.mojang.minecraftpe&hl=en&gl=US
-- https://play.google.com/store/apps/details?id=com.netease.lztgglobal&hl=en&gl=US
-- https://play.google.com/store/apps/details?id=com.ngame.allstar.eu&hl=en&gl=US
-- https://play.google.com/store/apps/details?id=com.pearlabyss.blackdesertm.gl&hl=en&gl=US
-- https://play.google.com/store/apps/details?id=com.pearlabyss.blackdesertm&hl=en&gl=US
-- https://play.google.com/store/apps/details?id=com.proximabeta.mf.uamo&hl=en&gl=US
-- https://play.google.com/store/apps/details?id=com.pubg.imobile&hl=en&gl=US
-- https://play.google.com/store/apps/details?id=com.pubg.krmobile&hl=en&gl=US
-- https://play.google.com/store/apps/details?id=com.rekoo.pubgm&hl=en&gl=US
-- https://play.google.com/store/apps/details?id=com.riotgames.league.teamfighttactics&hl=en&gl=US
-- https://play.google.com/store/apps/details?id=com.riotgames.league.teamfighttacticstw&hl=en&gl=US
-- https://play.google.com/store/apps/details?id=com.riotgames.league.teamfighttacticsvn&hl=en&gl=US
-- https://play.google.com/store/apps/details?id=com.riotgames.league.wildrift&hl=en&gl=US
-- https://play.google.com/store/apps/details?id=com.riotgames.league.wildrifttw&hl=en&gl=US
-- https://play.google.com/store/apps/details?id=com.riotgames.league.wildriftvn&hl=en&gl=US
-- https://play.google.com/store/apps/details?id=com.supercell.clashofclans&hl=en&gl=US
-- https://play.google.com/store/apps/details?id=com.tencent.KiHan&hl=en&gl=US
-- https://play.google.com/store/apps/details?id=com.tencent.ig&hl=en&gl=US
-- https://play.google.com/store/apps/details?id=com.tencent.lolm&hl=en&gl=US
-- https://play.google.com/store/apps/details?id=com.tencent.tmgp.cf&hl=en&gl=US
-- https://play.google.com/store/apps/details?id=com.tencent.tmgp.cod&hl=en&gl=US
-- https://play.google.com/store/apps/details?id=com.tencent.tmgp.gnyx&hl=en&gl=US
-- https://play.google.com/store/apps/details?id=com.tencent.tmgp.kr.codm&hl=en&gl=US
-- https://play.google.com/store/apps/details?id=com.tencent.tmgp.pubgmhd&hl=en&gl=US
-- https://play.google.com/store/apps/details?id=com.tencent.tmgp.sgame&hl=en&gl=US
-- https://play.google.com/store/apps/details?id=com.vng.codmvn&hl=en&gl=US
-- https://play.google.com/store/apps/details?id=com.vng.mlbbvn&hl=en&gl=US
-- https://play.google.com/store/apps/details?id=com.vng.pubgmobile&hl=en&gl=US
-- https://play.google.com/store/apps/details?id=jp.konami.pesam&hl=en&gl=US
-- https://play.google.com/store/apps/details?id=vng.games.revelation.mobile&hl=en&gl=US
-
-</details>
+7. 카카오톡을 켰을 때 "함께 사용하기"가 나오면 성공입니다.
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Contributing
+## Extra Info
 
-- [crdroidandroid](https://github.com/crdroidandroid)
-- [RisingTechOSS](https://github.com/RisingTechOSS)
-- [tehcneko](https://github.com/tehcneko)
-- [Evolution-X](https://github.com/Evolution-X)
+- Forked from [Game-Unlocker](https://github.com/rushiranpise/Game-Unlocker)
